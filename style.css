@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Coustard&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Coustard', serif;
+}
+
+body {
+    background-color: #000000;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    margin-top: 30px;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.game {
+    width: 70vmin;
+    height: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.box {
+    width: 18vmin;
+    height: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    color: #000;
+    font-size: 3rem;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.msg-container {
+    height: 10vh;
+    width: 60vmin;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.msg-container p {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-top: -50px;
+}
+
+#new-btn {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: crimson;
+    color: #fff;
+}
+
+.reset-btn {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: crimson;
+    color: #fff;
+}
+
+.hide {
+    display: none;
+}
